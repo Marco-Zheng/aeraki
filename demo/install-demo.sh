@@ -25,5 +25,5 @@ kubectl apply -f $BASEDIR/demo/gateway/demo-ingress.yaml -n istio-system
 kubectl apply -f $BASEDIR/demo/gateway/istio-ingressgateway.yaml -n istio-system
 
 bash $BASEDIR/demo/metaprotocol-dubbo/install.sh
-bash $BASEDIR/demo/thrift/install.sh
-bash ${BASEDIR}/demo/kafka/install.sh
+#bash $BASEDIR/demo/thrift/install.sh
+#bash ${BASEDIR}/demo/kafka/install.sh
